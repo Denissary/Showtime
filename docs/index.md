@@ -1,4 +1,4 @@
-# Overwiew
+# Общая информация
 
 Belavia is a Belarusian state-owned airline, founded in 1996. The company provides services for international flights and charters. The company has 17 representative offices in the neighboring and far-abroad countries.
 
