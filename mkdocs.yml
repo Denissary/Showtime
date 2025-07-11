@@ -1,0 +1,39 @@
+site_name: Google Docs guide
+site_author: Denis Nikanchuk
+
+nav:
+  - Overview: index.md
+  - How to: 
+    - Create a new document: src/managing/create.md
+    - Download a document: src/managing/download.md
+    - Print a document: src/managing/print.md
+    - Share a document: src/managing/share.md
+    - Manage page settings: src/managing/page.md
+    - Format a text: src/managing/format.md
+    - Insert different types of content: src/managing/content.md
+    - Manage add-ons: src/managing/addons.md
+      
+
+theme:
+  name: material
+  logo: 'src/img/d.png'
+  feature:
+    tabs: false
+  language: 'en'
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.extra
+  - pymdownx.snippets:
+      base_path: docs/src
+    
+plugins:
+  - search
+
+extra_css:
+  - 'stylesheets/extra-page-content.css'
+  - 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'
+  
